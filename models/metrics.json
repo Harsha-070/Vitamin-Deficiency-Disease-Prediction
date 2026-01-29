@@ -1,0 +1,18 @@
+{
+  "accuracy": 1.0,
+  "f1_score_macro": 1.0,
+  "f1_score_weighted": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "classes": [
+    "Anemia",
+    "Healthy",
+    "Night_Blindness",
+    "Rickets_Osteomalacia",
+    "Scurvy"
+  ],
+  "model_type": "StackingClassifier(RF+GB+XGB \u2192 LogisticRegression)",
+  "features_count": 63,
+  "training_samples": 3200,
+  "test_samples": 800
+}
